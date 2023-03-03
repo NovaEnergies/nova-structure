@@ -1,14 +1,14 @@
 /*
-@Title("Авторизация с невалидными данными")
-@Description("Пользователь входит в систему, используя невалидные данные")
+@Title("Авторизация с пустым полем")
+@Description("Пользователь входит в систему, не заполняя одно из полей для ввода")
 @Feature("Авторизация")
 @Tags({@Tag("web"), @Tag("authorization")})
-test userAuthorizationWithValidData() {
+@Preconditions()
+test userAuthorizationWithEmptyField() {
     step("Перейти на сайт Structure");
-    step("Ввести валидный логин в поле Login");
-    step("Ввести невалидный пароль в поле Password");
+    step("Ввести любой логин в поле Login");
+    step("Оставить поле Password пустым");
     step("Нажать кнопку Join");
-    step("Ожидаемый результат: ошибка авторизации в систему,
-        под полями формы авторизации отображается уведомление Invalid credentials");
+    step("Ожидаемый результат: кнопка Join недоступна для нажатия");
 }
 */
