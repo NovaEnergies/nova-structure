@@ -9,6 +9,6 @@ test userAuthorizationWithEmptyField() {
     step("Ввести любой логин в поле Login");
     step("Оставить поле Password пустым");
     step("Нажать кнопку Join");
-    step("Ожидаемый результат: кнопка Join недоступна для нажатия");
+    expect("Кнопка Join недоступна для нажатия");
 }
 */
