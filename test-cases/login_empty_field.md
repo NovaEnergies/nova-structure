@@ -8,10 +8,10 @@ User login empty field test case
 
 ### Steps
 
-1. Login page should have authorization form
-2. Type `{login}` into **Login** form field
-3. Don't type `{password}` into **Password** form field
-4. The **Join** button is disabled
+2. Login page should have authorization form
+3. Type `{login}` into **Login** form field
+4. Don't type `{password}` into **Password** form field
+5. The **Join** button is disabled
 
 ### Data type:
 

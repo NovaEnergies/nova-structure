@@ -9,9 +9,9 @@ User logout test case
 
 ### Steps
 
-1. Click **Logout** button in navigation panel
-2. Url should be `/` - Authorization page
-3. Page should have authorization form
+3. Click **Logout** button in navigation panel
+4. Url should be `/` - Authorization page
+5. Page should have authorization form
 
 ### Data type:
 

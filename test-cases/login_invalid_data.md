@@ -8,11 +8,11 @@ User login invalid data test case
 
 ### Steps
 
-1. Login page should have authorization form
-2. Type `{login}` into **Login** form field
-3. Type random `{password}` into **Password** form field
-4. Click on **Join** button
-5. 'Invalid credentials' notification is displayed below the login form fields
+2. Login page should have authorization form
+3. Type `{login}` into **Login** form field
+4. Type random `{password}` into **Password** form field
+5. Click on **Join** button
+6. 'Invalid credentials' notification is displayed below the login form fields
 
 ### Data type:
 

@@ -8,12 +8,12 @@ User login valid data test case
 
 ### Steps
 
-1. Login page should have authorization form
-2. Type `{login}` into **Login** form field
-3. Type `{password}` into **Password** form field
-4. Click on **Join** button
-5. Url should be `/#/` - Home page
-6. Navigation panel should contains `{login}`
+2. Login page should have authorization form
+3. Type `{login}` into **Login** form field
+4. Type `{password}` into **Password** form field
+5. Click on **Join** button
+6. Url should be `/#/` - Home page
+7. Navigation panel should contains `{login}`
 
 ### Data type:
 
